@@ -1,0 +1,16 @@
+header {
+  border: 20px solid blue;
+  text-align: center;
+  font-size: 100px;
+  background-color: blue;
+}
+body {
+   background-color: blue;
+}
+footer {
+   text-align: center;
+  
+}
+button {
+   background-image:linear-gradient rgb(41, 41, 151,) rgb(55, 55, 214,);
+}
