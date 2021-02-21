@@ -1,16 +1,65 @@
 header {
-  border: 1px solid black;
+   margin: auto;
   text-align: center;
-  font-size: 100px;
-  background-color: rgb(89, 89, 179);
+  font-size: 60px;
+  font-family: cursive;
+}
+
+   h1 {
+      color: white;
+      text-shadow: 5px 5px 5px #2320c0;
+      text-align: center;
+      font-size: 40px;
+      font-family: cursive;
+}
+  h3 {
+      color: white;
+      text-shadow: 5px 5px 5px #2320c0;
+      text-align: center;
+      font-size: 20px;
+      font-family: cursive;
+
 }
 body {
-   background-color: rgb(239, 239, 240);
+   background-image: linear-gradient(120deg,#866eb3,#595594, #11b8e2, #438ac4, #262488);
+  height: 100vh;
 }
-footer {
-   text-align: center;
-  
-}
+
+
 button {
-   background-image: linear-gradient(120deg,#0b690b,#145314, #014421, #002d0b, #001800);
+   background-image: linear-gradient(120deg,#3e00e7,#4a3a81, #919bf1, #9646b6, #6f718a);
+   width: 100px;
+   height: 100px;
+   border-radius: 12px;
+}
+div {
+   text-align: center;
+}
+
+input[type=text] {
+   border: 2px solid rgb(38, 0, 255);
+   border-radius: 4px;
+ }
+ input[type=email] {
+   border: 2px solid rgb(68, 0, 255);
+   border-radius: 4px;
+ }
+
+ input[type=Message] {
+   border: 2px solid rgb(68, 0, 255);
+   border-radius: 4px;
+   width: 300px;
+   height: 300px;
+   
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box
+   
+ }
+
+ 
+
+ footer {
+ 
+   text-align: center;
 }
