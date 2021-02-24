@@ -1,40 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title></title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+  <title></title>
 </head>
-<div>
-<header>CONTACT ME</header>
-</div>
 <body>
+  <header>
+    <h1>CONTACT ME</h1>
+  </header>
 
-    <div>
+  <div class="box">
     <!-- GET APPENDS TO SOMETHING TO THE URL. POST IS FOR THE SERVER-->
     <form action="results.html"  method="GET"> 
 
-        <label for="firstname">First name:</label>
-        <input type="text" id="firstname" name="firstname">
+      <label for="firstname"><h3>First Name:</h3></label>
+      <input type="text" id="firstname" name="firstname">
 
-        <label for="lastname">Last name:</label>
-        <input type="text" id="lastname" name="lastname">
+      <label for="lastname"><h3>Last name:</h3></label>
+      <input type="text" id="lastname" name="lastname">
 
-        <label for="email">Enter your email:</label>
-        <input type="email" id="email" name=email
-       
-        <label for="country">Country</lable>
-        <input type="text" id="country" name="country">
+      <label for="email"><h3>Enter your email:</h3></label>
+      <input type="email" id="email" name="email">
 
-        <label for="text">Your Message</label>
-        <input type="Message">
+      <label for="country"><h3>Country:</h3></label>
+      <input type="text" id="country" name="country">
 
-        <button>Submit</button>
+      <label for="text"><h3>Your Message:</h3></label>
+      <!-- <input type="message"> -->
+      
+      <textarea cols="50" rows="10"></textarea>
 
-    </form>
+      <button class="formbutton" style="display:block">Submit</button>
+
+      </form>
    </div>
+
+  <footer>
+    <h2>Social Media</h2>
+    <button class="gitbutton">
+      <i class="fab fa-9x fa-github-square gitbutton"></i>
+    </button>
+  </footer>
+  
 </body>
-<footer>social media here</footer>
 </html>
